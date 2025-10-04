@@ -1,0 +1,8 @@
+description = "Creates a polished placeholder loading component that mimics a component's layout."
+prompt = """
+For the component `{{args}}`, generate a corresponding placeholder loading component.
+1.  Name the new component `{{ComponentName}}Placeholder`.
+2.  The placeholder component should mimic the layout of the original component using simple shapes (e.g., grey boxes and circles).
+3.  Add a subtle, looping pulse or shimmer animation to the shapes to indicate an active loading state.
+4.  Ensure the component has a smooth fade-in transition when it first appears.
+"""
