@@ -1,0 +1,4 @@
+description = "Sets up Vitest and React Testing Library in the project."
+prompt = """
+Set up Vitest and React Testing Library in the project. If a test script is not already present in package.json, add one.
+"""
