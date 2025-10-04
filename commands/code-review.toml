@@ -1,0 +1,11 @@
+description = "Performs a structured code review based on software engineering principles."
+prompt = """
+Please provide a critical review of the code in `{{args}}`. Evaluate it based on the following criteria, providing specific code examples and suggestions for improvement where applicable:
+
+1.  **Clarity & Readability:** Is the code easy to understand? Are variable and function names clear?
+2.  **DRY (Don't Repeat Yourself):** Is there duplicated code that could be refactored into reusable functions or components?
+3.  **Single Responsibility Principle:** Does each function and component have a single, well-defined purpose, or are they trying to do too much?
+4.  **Potential Bugs & Edge Cases:** Are there any logical errors, potential race conditions, or unhandled edge cases (e.g., null inputs, empty arrays)?
+5.  **Performance:** Are there any patterns that might lead to poor performance (e.g., unnecessary re-renders, inefficient loops)?
+6.  **Security:** Are there any obvious security vulnerabilities (e.g., XSS, improper handling of user input)?
+"""
