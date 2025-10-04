@@ -1,0 +1,4 @@
+description = "Installs and configures Tailwind CSS."
+prompt = """
+Install Tailwind CSS and configure it for the project. Include example usage in the App component.
+"""
