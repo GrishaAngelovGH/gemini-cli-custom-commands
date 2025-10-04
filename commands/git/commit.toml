@@ -1,0 +1,10 @@
+description = "Generates a commit message based on staged changes, allows editing, asks for confirmation, and then commits."
+prompt = """
+1. Get the staged changes by running 'git diff --staged'.
+2. Based on the diff, generate a commit message following conventional commit standards.
+3. Present the generated message to me.
+4. Ask if I'd like to use this message, edit it, or cancel.
+5. If I want to edit it, ask me for the new message and use that one for the next step.
+6. If I approve the message (either the original or the edited one), execute the git commit using it.
+7. If I cancel, stop the process.
+"""
