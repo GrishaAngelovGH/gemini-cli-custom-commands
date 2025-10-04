@@ -1,0 +1,8 @@
+description = "Suggests reviewers for a pull request based on file change history."
+prompt = """
+1. Identify the files changed on the current branch compared to the master development branch.
+2. For each changed file, use 'git blame' to analyze the authorship of the code.
+3. Aggregate the line counts for each author, excluding the current user.
+4. Rank the authors based on their total line count in the changed files.
+5. Present a ranked list of suggested reviewers. For each suggestion, provide their name and a brief, data-driven reason (e.g., "Authored X lines in file Y.js").
+"""
