@@ -1,0 +1,15 @@
+description = "Generates a comprehensive overview of the project's architecture, tools, and conventions."
+prompt = """
+Generate a comprehensive overview of the project. Include the following sections:
+1.  High-Level Summary: What the project does.
+2.  Core Technologies: Key frameworks and libraries.
+3.  Architecture: The main architectural patterns used.
+4.  Key Folders: A breakdown of the directory structure.
+5.  State Management: How global and local state are handled.
+6.  Routing: How application routes are defined.
+7.  Testing: The testing strategy, libraries, and file locations.
+8.  Styling & Theming: The approach to styling components.
+9.  Linting & Code Style: Tools and configuration for code quality.
+10. Environment & Configuration: How environment variables are used.
+11. Build & Deployment: The process for creating and deploying a production build.
+"""
