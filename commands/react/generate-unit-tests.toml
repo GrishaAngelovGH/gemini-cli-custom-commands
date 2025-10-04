@@ -1,0 +1,4 @@
+description = "Generates unit tests for a React component using react-testing-library."
+prompt = """
+Generate unit tests for the provided React component using react-testing-library. Use the format: it('should...') with relevant actions being tested. {{args}}
+"""
