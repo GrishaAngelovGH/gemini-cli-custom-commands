@@ -1,0 +1,4 @@
+description = "Flags patterns that may cause memory leaks."
+prompt = """
+Analyze useEffect, subscriptions, and event listeners for potential memory leaks. Suggest cleanup strategies. {{args}}
+"""
