@@ -1,0 +1,4 @@
+description = "Flags components with high line count or complexity."
+prompt = """
+Identify components with high line count, deep nesting, or complex logic. Suggest candidates for refactoring. {{args}}
+"""
